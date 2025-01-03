@@ -10,7 +10,8 @@ import os
 #__ = {'csrftoken': '30DWARI3KYNCwwLVwAJcgk9UvYuaDprV', 'rur': '"CCO\\05451941737982\\0541752503674:01f7f7ee3b04c8a482feae83d829462f0b64c53c8ba5f6f858124217ba2822f1a7d03cfe"', 'mid': 'ZpPh9QALAAEzuDejuFXnTExbR64U', 'ds_user_id': '51941737982', 'ig_did': '50F439F2-69F5-401B-B6F5-80DE9691328E', 'sessionid': '51941737982%3AD4kCrUJkf1t75I%3A10%3AAYeYFLZhm5_x-6h3nlRYy_hracihne8nWCVBK1aPuQ'}
 
 #new
-__ = {'datr': 'ud5fZ9i-nT2hdLxyEFIGKp2W', 'ig_did': '99EA9F9C-FB40-42C0-B6F8-5715268C450F', 'dpr': '2.1042816638946533', 'ig_nrcb': '1', 'mid': 'Z1_euQABAAEMu8oDsS9DEgNQc720', 'csrftoken': 'JKtH18a26ZSDomLS46FrrEw93Z5ll1lc', 'ds_user_id': '51941737982', 'sessionid': '51941737982%3Aua0xIiwYfqUxBm%3A7%3AAYfeC4Ybj0U-e0g6012XM9LwfuxIvQ6LEcuIOhX21g', 'wd': '514x992', 'rur': '"EAG\\05451941737982\\0541765872221:01f79039fcecb3d6c5c47b868dc18d04064cda47d91dc2a33552fb1e50622d4f6e6122b3"'}
+#__ = {'datr': 'ud5fZ9i-nT2hdLxyEFIGKp2W', 'ig_did': '99EA9F9C-FB40-42C0-B6F8-5715268C450F', 'dpr': '2.1042816638946533', 'ig_nrcb': '1', 'mid': 'Z1_euQABAAEMu8oDsS9DEgNQc720', 'csrftoken': 'JKtH18a26ZSDomLS46FrrEw93Z5ll1lc', 'ds_user_id': '51941737982', 'sessionid': '51941737982%3Aua0xIiwYfqUxBm%3A7%3AAYfeC4Ybj0U-e0g6012XM9LwfuxIvQ6LEcuIOhX21g', 'wd': '514x992', 'rur': '"EAG\\05451941737982\\0541765872221:01f79039fcecb3d6c5c47b868dc18d04064cda47d91dc2a33552fb1e50622d4f6e6122b3"'}
+__ = {'datr': 'FZB3ZyZBcw-CFKQRe03rHVDm', 'ig_did': 'FB4016F2-5314-4C74-B983-C4D9D5E1303E', 'dpr': '2.1042816638946533', 'mid': 'Z3eQFQABAAHbVZEFDqHfCPyhCkqP', 'ps_l': '1', 'ps_n': '1', 'wd': '514x992', 'csrftoken': '842Pmi3rVHTuoFf8cu1TwdukuElQTQhh', 'ds_user_id': '51941737982', 'sessionid': '51941737982%3AzBH9lJaTJnKJXo%3A13%3AAYcPY9ejjGHxLIme7IeNR54phlTeg7rBHET62uZgdg', 'rur': '"EAG\\05451941737982\\0541767425075:01f7a22e111314844c1a67e80532181e3e781b6eef391d7ad3a2b3b392251b8d6c85fe8c"'}
 session = requests.session()
 Cookies = __
 
@@ -36,7 +37,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'How to kill',
+    'broadcast_message': '______',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
@@ -78,7 +79,7 @@ headers = {
     'priority': 'u=1, i',
 }
 
-url = re.findall("https://.*/src/live.m3u8", requests.get("https://live.prd.dlive.tv/hls/live/dlive-05900794.m3u8").text)[0]
+url = re.findall("https://.*/src/live.m3u8", requests.get("https://live.prd.dlive.tv/hls/live/funnybunny-yt.m3u8").text)[0]
 
 json_data = {
     'playlisturi': f'{url}'
