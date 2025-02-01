@@ -2,15 +2,6 @@ import requests
 import re
 import json
 import os
-
-#org
-#__ = {'csrftoken': 'ORIQsBXGouDFzpd1VmF8K5GchvHGlGLN', 'rur': '\"VLL\\0548510847248\\0541752299374:01f7a430cf0c607ba0f4a6afb8f9b3b8dde6feaa399e85302c119932418f457214e2a63f\"', 'mid': 'Zki-HwALAAHGxyPe3ATMxcewqF5-', 'ds_user_id': '8510847248', 'ig_did': '174B4DF3-F44A-43B1-8FE5-B65885FB0256', 'sessionid': '8510847248%3AqrRw5zWeND3mxR%3A25%3AAYe2Z86MFJ3UvoyPHk78MzGblSuoPnouZW9-0TUczA'}
-
-#dup
-#__ = {'csrftoken': '30DWARI3KYNCwwLVwAJcgk9UvYuaDprV', 'rur': '"CCO\\05451941737982\\0541752503674:01f7f7ee3b04c8a482feae83d829462f0b64c53c8ba5f6f858124217ba2822f1a7d03cfe"', 'mid': 'ZpPh9QALAAEzuDejuFXnTExbR64U', 'ds_user_id': '51941737982', 'ig_did': '50F439F2-69F5-401B-B6F5-80DE9691328E', 'sessionid': '51941737982%3AD4kCrUJkf1t75I%3A10%3AAYeYFLZhm5_x-6h3nlRYy_hracihne8nWCVBK1aPuQ'}
-
-#new
-#__ = {'datr': 'ud5fZ9i-nT2hdLxyEFIGKp2W', 'ig_did': '99EA9F9C-FB40-42C0-B6F8-5715268C450F', 'dpr': '2.1042816638946533', 'ig_nrcb': '1', 'mid': 'Z1_euQABAAEMu8oDsS9DEgNQc720', 'csrftoken': 'JKtH18a26ZSDomLS46FrrEw93Z5ll1lc', 'ds_user_id': '51941737982', 'sessionid': '51941737982%3Aua0xIiwYfqUxBm%3A7%3AAYfeC4Ybj0U-e0g6012XM9LwfuxIvQ6LEcuIOhX21g', 'wd': '514x992', 'rur': '"EAG\\05451941737982\\0541765872221:01f79039fcecb3d6c5c47b868dc18d04064cda47d91dc2a33552fb1e50622d4f6e6122b3"'}
 __ = {'ps_n': '1', 'datr': 'NhoaZziAEWGjaq13I-iectbA', 'ig_nrcb': '1', 'ds_user_id': '8510847248', 'csrftoken': 'CkHr8YXP1CkvWpNyB4DGMwEwTRIdGsfa', 'ig_did': 'F9E8FC38-61AE-4351-8157-60D4018CECED', 'ps_l': '1', 'wd': '1920x957', 'mid': 'ZxoaNwALAAEJ1822NAdLXpYPVb4F', 'sessionid': '8510847248%3AKlRchndjZKZiRZ%3A11%3AAYdNe42f7gDZ1UXhaOpMSpOLrnx6_4MD_wxa9cValg', 'rur': '"HIL\\0548510847248\\0541769963548:01f7cb1e1cc4ed0a03a106a0f17eced01f307479fb79948aa8829e195ce8c0358017de46"'}
 session = requests.session()
 Cookies = __
