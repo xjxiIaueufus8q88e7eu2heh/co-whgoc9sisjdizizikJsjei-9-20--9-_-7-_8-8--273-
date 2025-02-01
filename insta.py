@@ -11,7 +11,7 @@ import os
 
 #new
 #__ = {'datr': 'ud5fZ9i-nT2hdLxyEFIGKp2W', 'ig_did': '99EA9F9C-FB40-42C0-B6F8-5715268C450F', 'dpr': '2.1042816638946533', 'ig_nrcb': '1', 'mid': 'Z1_euQABAAEMu8oDsS9DEgNQc720', 'csrftoken': 'JKtH18a26ZSDomLS46FrrEw93Z5ll1lc', 'ds_user_id': '51941737982', 'sessionid': '51941737982%3Aua0xIiwYfqUxBm%3A7%3AAYfeC4Ybj0U-e0g6012XM9LwfuxIvQ6LEcuIOhX21g', 'wd': '514x992', 'rur': '"EAG\\05451941737982\\0541765872221:01f79039fcecb3d6c5c47b868dc18d04064cda47d91dc2a33552fb1e50622d4f6e6122b3"'}
-__ = {'datr': 'FZB3ZyZBcw-CFKQRe03rHVDm', 'ig_did': 'FB4016F2-5314-4C74-B983-C4D9D5E1303E', 'dpr': '2.1042816638946533', 'mid': 'Z3eQFQABAAHbVZEFDqHfCPyhCkqP', 'ps_l': '1', 'ps_n': '1', 'wd': '514x992', 'csrftoken': '842Pmi3rVHTuoFf8cu1TwdukuElQTQhh', 'ds_user_id': '51941737982', 'sessionid': '51941737982%3AzBH9lJaTJnKJXo%3A13%3AAYcPY9ejjGHxLIme7IeNR54phlTeg7rBHET62uZgdg', 'rur': '"EAG\\05451941737982\\0541767425075:01f7a22e111314844c1a67e80532181e3e781b6eef391d7ad3a2b3b392251b8d6c85fe8c"'}
+__ = {'ps_n': '1', 'datr': 'NhoaZziAEWGjaq13I-iectbA', 'ig_nrcb': '1', 'ds_user_id': '8510847248', 'csrftoken': 'CkHr8YXP1CkvWpNyB4DGMwEwTRIdGsfa', 'ig_did': 'F9E8FC38-61AE-4351-8157-60D4018CECED', 'ps_l': '1', 'wd': '1920x957', 'mid': 'ZxoaNwALAAEJ1822NAdLXpYPVb4F', 'sessionid': '8510847248%3AKlRchndjZKZiRZ%3A11%3AAYdNe42f7gDZ1UXhaOpMSpOLrnx6_4MD_wxa9cValg', 'rur': '"HIL\\0548510847248\\0541769963548:01f7cb1e1cc4ed0a03a106a0f17eced01f307479fb79948aa8829e195ce8c0358017de46"'}
 session = requests.session()
 Cookies = __
 
